@@ -74,3 +74,4 @@ app.post('/create-appointment', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on port ${port}`); // Logging a message when server starts listening on the specified port
 });
+

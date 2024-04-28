@@ -20,10 +20,11 @@ spec:
       # This is only applicable to REST endpoint types.
       # The path should be relative to the Docker context.
       schemaFilePath: openapi.yaml
+
   outbound:
     serviceReferences:
-    - name: choreo:///codechallenge/appointment-management/cmrqnc/8b1c3/v1.0/ORGANIZATION
-      connectionConfig: 01eef67c-b6e6-17c0-9120-68782ddbb0c9
+    - name: choreo:///googlex/booking-management/hinyxm/5c69c/v1.0/ORGANIZATION
+      connectionConfig: 01ef0579-c10f-1e26-933f-a7bcff011d6b
       env:
       - from: ServiceURL
         to: APPOINTMENT_SERVICE_URL
